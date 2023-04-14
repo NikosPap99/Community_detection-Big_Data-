@@ -1,2 +1,4 @@
 # Community_detection-Big_Data-
 A jupyter notebook that showcases the Girvan-Newman algorithm and the divisive community detection algorithm, used In Big Data applications and networks.
+
+It uses the files fb-pages-food.edges and fb-pages-food.nodes to read information about a big facebook network. The nodes of this network are indexed. We take a small sample of it and visualise it using different colors for each node at first. Then we recognise its communities, split communities into smaller communities using the Girvan-Newman algorithm and visualise them, using a different color for each. We take a look into the divisive community detection algorithm. We tinker with the graph by adding random edges and hamilton cycles to it and then finally introduce a function that calculates graph partition modularity scores.
